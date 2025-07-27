@@ -1,1 +1,26 @@
-2025-07-25 19:16:53.030 [main] INFO  com.devsenior.yecm.Main - Hello world!
+2025-07-26 21:02:53.122 [main] INFO  com.devsenior.yecm.Main - Mostrando menu
+2025-07-26 21:03:27.191 [main] INFO  com.devsenior.yecm.components.Menu - Libro agregado: 'Pruebas Unitarias 1' de Yecm [ISBN: A142]
+2025-07-26 21:03:36.758 [main] WARN  com.devsenior.yecm.components.Menu - Entrada no numerica ingresada en menu
+java.lang.NumberFormatException: For input string: "s"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.devsenior.yecm.components.Menu.showMenu(Menu.java:45)
+	at com.devsenior.yecm.Main.main(Main.java:12)
+2025-07-26 21:04:21.907 [main] INFO  com.devsenior.yecm.components.Menu - Libro agregado: 'Pruebas Unitarias 2' de Jones [ISBN: A512]
+2025-07-26 21:04:44.506 [main] INFO  com.devsenior.yecm.components.Menu - 👤 Usuario agregado: Yecm (ID: 350, Email: yecm@gmail.com)
+2025-07-26 21:05:04.122 [main] INFO  com.devsenior.yecm.components.Menu - 👤 Usuario agregado: Jones (ID: 119, Email: jones@gmail.com)
+2025-07-26 21:06:06.181 [main] INFO  com.devsenior.yecm.components.Menu - Prestamo realizado - Usuario ID: 350, Libro ISBN: A142
+2025-07-26 21:06:51.198 [main] INFO  com.devsenior.yecm.components.Menu - Prestamo realizado - Usuario ID: 119, Libro ISBN: A142
+2025-07-26 21:07:41.281 [main] INFO  com.devsenior.yecm.components.Menu - Devolucion realizada - Usuario ID: 119, Libro ISBN: A142
+2025-07-26 21:08:10.743 [main] INFO  com.devsenior.yecm.components.Menu - Prestamo realizado - Usuario ID: 119, Libro ISBN: A142
+2025-07-26 21:08:21.566 [main] INFO  com.devsenior.yecm.components.Menu - Aplicacion cerrada correctamente por el usuario.
+2025-07-26 21:09:26.343 [main] DEBUG com.devsenior.yecm.components.Menu - Servicios inicializados correctamente.
+2025-07-26 21:09:26.349 [main] INFO  com.devsenior.yecm.Main - Mostrando menu
+2025-07-26 21:09:32.836 [main] DEBUG com.devsenior.yecm.components.Menu - Opcion ingresada por el usuario: 1
+2025-07-26 21:09:56.094 [main] DEBUG com.devsenior.yecm.components.Menu - Autor ingresado: yo
+2025-07-26 21:10:22.495 [main] DEBUG com.devsenior.yecm.components.Menu - Titulo ingresado: pruebas unitarias #1
+2025-07-26 21:10:29.557 [main] DEBUG com.devsenior.yecm.components.Menu - ISBN ingresado: A213
+2025-07-26 21:10:29.567 [main] INFO  com.devsenior.yecm.components.Menu - Libro agregado: 'pruebas unitarias #1' de yo [ISBN: A213]
+2025-07-26 21:11:48.637 [main] DEBUG com.devsenior.yecm.components.Menu - Opcion ingresada por el usuario: 7
+2025-07-26 21:11:48.644 [main] INFO  com.devsenior.yecm.components.Menu - Aplicacion cerrada correctamente por el usuario.

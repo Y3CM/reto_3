@@ -51,4 +51,10 @@ public class User {
         this.registerDate = registerDate;
     }
 
+    @Override
+    public String toString() {
+        return "User -> id= " + id + ", username= " + username + ", email= " + email + ", registerDate= " + registerDate;
+    }
+    
+
 }
